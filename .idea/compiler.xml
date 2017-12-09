@@ -19,8 +19,14 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Lab1_main" target="1.5" />
+      <module name="Lab1_test" target="1.5" />
+      <module name="Lab2_main" target="1.5" />
+      <module name="Lab2_test" target="1.5" />
       <module name="LAb4_main" target="1.5" />
       <module name="LAb4_test" target="1.5" />
+      <module name="Laba3_main" target="1.5" />
+      <module name="Laba3_test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
