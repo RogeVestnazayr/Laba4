@@ -10,7 +10,7 @@ public class ArraysTest {
     public void init() {
         task = new MyTasks();
         array1 = new int[]{10, 15, 20, 25, 30, 35, 40};
-        array2 = new int[]{15, 25, 25, 1, 2, 3, 4, 5, 5, 5};
+        array2 = new int[]{15, 25, 25, 1, 2, 4, 5, 5, 7};
         matrix1 = new int[][]{
                 {1, 2, -3},
                 {2, -1, 2},
@@ -32,7 +32,7 @@ public class ArraysTest {
         double res = task.midel(array1);
         Assert.assertTrue(25==res);
         res = task.midel(array2);
-        Assert.assertTrue(10==res);
+        Assert.assertTrue(3==res);
     }
     @Test
     public void minofarrTest(){
